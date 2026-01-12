@@ -1,5 +1,5 @@
-import torch
 import pytest
+import torch
 from cookie_thing_first.model import MyAwesomeModel
 
 

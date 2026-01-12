@@ -1,5 +1,6 @@
-import wandb
 import torch
+
+import wandb
 from cookie_thing_first.model import MyAwesomeModel
 
 api = wandb.Api()
