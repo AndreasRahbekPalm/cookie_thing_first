@@ -3,7 +3,6 @@ import os.path
 import pytest
 import torch
 from cookie_thing_first.data import corrupt_mnist
-from torch.utils.data import Dataset
 
 from tests import _PATH_DATA
 
