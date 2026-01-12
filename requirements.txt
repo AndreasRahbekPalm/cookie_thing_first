@@ -67,7 +67,7 @@ shellingham==1.5.4
 six==1.17.0
 starlette==0.41.3
 sympy==1.13.1
--e file:///C:/Users/andre/Desktop/Master/semester%203/MLOps/test
+-e .
 threadpoolctl==3.6.0
 torch==2.6.0+cpu
 typer==0.15.1
