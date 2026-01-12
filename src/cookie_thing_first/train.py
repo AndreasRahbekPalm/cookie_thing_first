@@ -46,7 +46,6 @@ def train(lr: float = 0.001, batch_size: int = 32, epochs: int = 5) -> None:
             if i % 100 == 0:
                 print(f"Epoch {epoch}, iter {i}, loss: {loss.item()}")
 
-
         # add a custom matplotlib plot of the ROC curves
         preds = torch.cat(preds, 0)
         targets = torch.cat(targets, 0)
