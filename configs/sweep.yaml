@@ -1,0 +1,19 @@
+program: src/test/train.py  # Remove this line
+command: uv run python src/test/train.py  # Add this instead
+name: sweepdemo
+project: corrupt_mnist
+entity: s214598
+method: bayes
+metric:
+    goal: minimize
+    name: validation_loss  # Note: Still points to 'validation_loss', but your script logs 'train_loss'—consider updating to 'train_loss' or adding validation logic
+parameters:
+    learning_rate:
+        min: 0.0001
+        max: 0.1
+        distribution: log_uniform_values
+    batch_size:
+        values: [16, 32, 64]
+    epochs:
+        values: [5, 10, 15]
+run_cap: 5

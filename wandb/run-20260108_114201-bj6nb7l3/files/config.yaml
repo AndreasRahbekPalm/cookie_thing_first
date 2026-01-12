@@ -1,0 +1,52 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            55cdjpdwxdwzy8plh2bf8grtkibe5403:
+                codePath: src\test\train.py
+                codePathLocal: src\test\train.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "510770802688"
+                        used: "378164912128"
+                email: andreas.r.p@hotmail.com
+                executable: C:\Users\andre\Desktop\Master\semester 3\MLOps\test\.venv\Scripts\python.exe
+                git:
+                    commit: 19715c61a40327dab0792e52e35ad150a9ee710d
+                    remote: https://github.com/AndreasRahbekPalm/cookie_thing_first.git
+                host: LAPTOP-TF1DRR2O
+                memory:
+                    total: "14888460288"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\andre\Desktop\Master\semester 3\MLOps\test\src\test\train.py
+                python: CPython 3.11.14
+                root: C:\Users\andre\Desktop\Master\semester 3\MLOps\test
+                startedAt: "2026-01-08T10:42:01.383032Z"
+                writerId: 55cdjpdwxdwzy8plh2bf8grtkibe5403
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 16
+            "4": 3.11.14
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 5
+lr:
+    value: 0.001

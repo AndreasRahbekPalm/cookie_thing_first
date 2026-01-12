@@ -1,0 +1,28 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-01-08T10:51:07.577998Z",
+  "program":  "C:\\Users\\andre\\Desktop\\Master\\semester 3\\MLOps\\test\\src\\test\\train.py",
+  "codePath":  "src\\test\\train.py",
+  "codePathLocal":  "src\\test\\train.py",
+  "git":  {
+    "remote":  "https://github.com/AndreasRahbekPalm/cookie_thing_first.git",
+    "commit":  "19715c61a40327dab0792e52e35ad150a9ee710d"
+  },
+  "email":  "andreas.r.p@hotmail.com",
+  "root":  "C:\\Users\\andre\\Desktop\\Master\\semester 3\\MLOps\\test",
+  "host":  "LAPTOP-TF1DRR2O",
+  "executable":  "C:\\Users\\andre\\Desktop\\Master\\semester 3\\MLOps\\test\\.venv\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "510770802688",
+      "used":  "378180984832"
+    }
+  },
+  "memory":  {
+    "total":  "14888460288"
+  },
+  "writerId":  "svmh3673t5hkdu53k31vrochx0ol4tad"
+}
