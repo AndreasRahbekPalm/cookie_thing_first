@@ -25,8 +25,8 @@ jobs:
         pip install ruff
         pip list
 
-    - name: Ruff check
-      run: ruff check .
-
     - name: Ruff format
-      run: ruff format .
+      run: ruff format --check .
+
+    - name: Ruff lint
+      run: ruff check .
