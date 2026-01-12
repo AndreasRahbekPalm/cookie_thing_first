@@ -1,6 +1,6 @@
 import torch
 import pytest
-from test.model import MyAwesomeModel
+from cookie_thing_first.model import MyAwesomeModel
 
 @pytest.mark.parametrize("batch_size", [32, 64])
 def test_model(batch_size: int) -> None:

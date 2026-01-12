@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 import torch
 import os.path
 import pytest
-from test.data import corrupt_mnist
+from cookie_thing_first.data import corrupt_mnist
 from tests import _PATH_DATA
 
 @pytest.mark.skipif(not os.path.exists(_PATH_DATA), reason="Data files not found")
